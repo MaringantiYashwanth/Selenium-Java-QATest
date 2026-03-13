@@ -11,7 +11,7 @@ public class BasePage {
         BasePage.driver = driver;
     }
 
-    protected static WebElement find(By locator) {
+    public static WebElement find(By locator) {
         return driver.findElement(locator);
     }
 
